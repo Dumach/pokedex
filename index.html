@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Poke App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="upper-deck">
+        <div id="upper-deck-monitor">
+          <div id="left-container">
+            <div id="name-container">
+              <h2 id="pokemon-name">Pikachu</h2>
+              <h2 id="pokemon-id">#0025</h2>
+            </div>
+            <div id="image-container">
+              <img
+                id="sprite"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+              />
+            </div>
+          </div>
+
+          <div>
+            <h2>Description</h2>
+            <div class="stats">
+              <p id="weight">Weight: 60</p>
+              <p id="height">Height: 4</p>
+            </div>
+            <br />
+            <div class="stats" id="types"></div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div id="lower-deck">
+        <div id="lower-deck-monitor">
+          <input
+            type="text"
+            id="search-input"
+            name="poke-name"
+            placeholder="pikachu"
+            required
+          />
+          <button id="search-button">Search 🔍</button>
+          <br />
+          <h2>Stats:</h2>
+          <div class="stats">
+            <p>HP: <b id="hp">35</b>❤️</p>
+            <p>Attack: <b id="attack">55</b>⚔️</p>
+            <p>Defense: <b id="defense">40</b>🛡️</p>
+            <p>Sp. Attack: <b id="special-attack">50</b>⚡</p>
+            <p>Sp. Defense: <b id="special-defense">50</b>✨</p>
+            <p>Speed: <b id="speed">90</b>🍃</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

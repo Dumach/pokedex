@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;    
+  box-sizing: border-box;
+  --monitor: #032f5b;
+  color: white;
+
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    font-family: verdana;
+}
+
+body{
+    min-width: 480px;
+}
+
+h2{
+  padding: 0.5rem;
+  font-size: 1.25rem;
+}
+
+p{
+  padding: 0.5rem;
+}
+
+#main-container{  
+  height: 100%;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+#upper-deck{
+  border: red 0.75rem solid;
+  background-color: black;
+  border-radius: 0.8rem;
+}
+
+#upper-deck-monitor{
+    background-color: var(--monitor);
+    border: 0.5 rem var(--monitor) solid;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    height: 12rem;
+    display: flex;
+    gap: 10px;
+}
+
+#left-container{
+  width: 50%;
+}
+
+#name-container{  
+  display: flex;
+}
+
+#image-container{
+  width: 50%;
+}
+
+#sprite {
+    width: 100%;
+    height: auto;
+}
+
+#types{
+  margin-top: 2rem;
+  display: flex;
+}
+
+.type{
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+hr{
+  height: 10px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(176, 173, 173);
+}
+
+#lower-deck{
+  border: red 0.75rem solid;
+  background-color: black;
+  border-radius: 0.8rem;
+  margin-top: -4px;
+}
+
+#lower-deck-monitor{
+    background-color: var(--monitor);
+    border: 0.5 rem var(--monitor) solid;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    height: 12rem;
+    padding: 0.5rem;
+}
+
+#search-input{
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 60%;
+  margin-right: 10px;
+  appearance: none;
+	border: none;
+	outline: none;
+  background-color: rgb(234, 233, 233);
+  color: black;
+	border-radius: 0.25rem;
+}
+
+#search-button{
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: none;
+  background-color: gray;
+}
+
+.stats{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
